@@ -15,6 +15,7 @@
 		44B37A0D26A86CB600B00415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B37A0B26A86CB600B00415 /* LaunchScreen.storyboard */; };
 		44B37A1A26A870AE00B00415 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B37A1926A870AE00B00415 /* News.swift */; };
 		44B37A1E26A8740800B00415 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B37A1D26A8740800B00415 /* API.swift */; };
+		44B37A2226A8789A00B00415 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B37A2126A8789A00B00415 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		44B37A0E26A86CB600B00415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44B37A1926A870AE00B00415 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		44B37A1D26A8740800B00415 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		44B37A2126A8789A00B00415 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		44B379FF26A86CB200B00415 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				44B37A2026A8786900B00415 /* Services */,
 				44B37A1C26A873EA00B00415 /* Config */,
 				44B37A1826A86E4100B00415 /* Views */,
 				44B37A1726A86E1200B00415 /* ViewModels */,
@@ -119,6 +122,14 @@
 				44B37A1D26A8740800B00415 /* API.swift */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		44B37A2026A8786900B00415 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				44B37A2126A8789A00B00415 /* NetworkManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 			files = (
 				44B37A0126A86CB200B00415 /* AppDelegate.swift in Sources */,
 				44B37A0326A86CB200B00415 /* SceneDelegate.swift in Sources */,
+				44B37A2226A8789A00B00415 /* NetworkManager.swift in Sources */,
 				44B37A1A26A870AE00B00415 /* News.swift in Sources */,
 				44B37A0526A86CB200B00415 /* ContentView.swift in Sources */,
 				44B37A1E26A8740800B00415 /* API.swift in Sources */,
